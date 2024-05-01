@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MyCV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Media Query for Small Screens */
+        @media screen and (max-width: 768px) {
+            .w3-padding-large {
+                display: block;
+            }
+
+            .w3-bar-item {
+                padding: 8px 0
+            }
+
+            .education-item {
+                width: 100%;
+                margin: 10px 0;
+
+            }
+
+            .image {
+                height: 200px;
+            }
+
+            .w3-bar-block.w3-purple {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="w3-container w3-center w3-purple w3-padding-64"
+        style="text-align: justify; color: white; font-family: 'Arial', sans-serif;">
+        <h1><strong>Nurul Adilah Abdul Rahman</strong></h1>
+        <p style="font-size: 1.0em;line-height: 1.6; letter-spacing: 0.5px;">
+            As a recent graduate from Universiti Utara Malaysia (UUM) with a Bachelor of Science in Information
+            Technology,<br>
+            Seeking internship position where I can get the opportunities to prove my abilities by accepting
+            challenges<br>
+            and fulfilling, the organization goal through continuous learning and commitment.
+        </p>
+    </header>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-purple w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#portfolio-detail" class="w3-bar-item w3-button w3-padding-large">PERSONAL INFO</a>
+            <a href="#Education" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EDUCATION</a>
+            <a href="#WorkExperience" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORK
+                EXPERIENCE</a>
+            <a href="#Skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SKILLS</a>
+            <a href="#Project" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT</a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-purple w3-hide w3-hide-large w3-hide-medium w3-top"
+        style="margin-top:38px">
+        <a href="#Education" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EDUCATION</a>
+        <a href="#WorkExperience" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORK
+            EXPERIENCE</a>
+        <a href="#Skills" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SKILLS</a>
+        <a href="#Project" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECT</a>
+    </div>
+    <!-- portfolio-details -->
+    <section id="portfolio-details" class="portfolio-details">
+        <div class="w3-container w3-row w3-card w3-margin w3-padding-32" id="PersonalInfo">
+            <h3 style="font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold; color: #333;">Personal Info
+            </h3>
+            <div class="w3-container w3-half w3-padding w3-center">
+                <img src="img/adpic.jpg"
+                    style="height: 200px; max-width: 100%; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+            </div>
+            <div class="w3-container w3-half">
+                <p><i class="fa fa-user-circle fa-fw w3-margin-right w3-large w3-text-grey"></i>Nurul Adilah Binti Abdul
+                    Rahman</p>
+                <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-grey"></i>Student</p>
+                <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-grey"></i>Balik Pulau, Penang</p>
+                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-grey"></i>adiela1045@gmail.com</p>
+                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-grey"></i>013-4273122</p>
+            </div>
+        </div>
+    </section>
+    <!-- Education -->
+    <div id="Education" class="w3-container w3-card w3-margin w3-padding-32">
+        <h3 style="font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold; color: #333;">Education</h3>
+        <div class="education-container">
+            <div class="w3-center education-item">
+                <img src="img/smktbg.png" alt="Education Image 1" class="education-image"
+                    style="object-fit: contain; height: 150px;">
+                <h4>2011 - 2015</h4>
+                <p><strong>SMK Teluk Bahang, Pulau Pinang</strong><br>
+                    Sijil Pelajaran Malaysia (SPM)
+                </p>
+            </div>
+            <div class="w3-center education-item">
+                <img src="img/psp_logo.png" alt="Polytechnic Seberang Perai Logo" class="education-image"
+                    style="object-fit: contain; height: 150px;">
+                <h4>2016 - 2019</h4>
+                <p><strong>Polytechnic Seberang Perai, Pulau Pinang</strong><br>
+                    Diploma in Digital Technology
+                </p>
+            </div>
+            <div class="w3-center education-item">
+                <img src="img/uum.png" alt="Universiti Utara Malaysia Logo" class="education-image"
+                    style="height: 150px;">
+                <h4>2021 - 2025</h4>
+                <p><strong>Universiti Utara Malaysia, Kedah</strong><br>
+                    Bachelor of Science in Information Technology
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- WorkExperience -->
+    <div id="WorkExperience" class="w3-container w3-card w3-margin w3-padding-32">
+        <h3 style="font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold; color: #333;">Work Experience
+        </h3>
+        <div class="collapsible-section">
+            <button type="button" class="collapsible">Sep 2019 - Sep 2021</button>
+            <div class="content">
+                <p><strong>Mydin Bukit Jambul, Kompleks Bukit Jambul, Bayan Lepas, Penang</strong></p>
+                <p><em>Junior IT Executive</em></p>
+                <p>Responsibilities:</p>
+                <ul>
+                    <li>Monitoring network infrastructure</li>
+                    <li>Providing IT support for daily operations</li>
+                    <li>Maintaining and troubleshooting software and hardware</li>
+                    <li>Managing company assets related to IT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="collapsible-section">
+            <button type="button" class="collapsible">Dis 2018 - Apr 2019</button>
+            <div class="content">
+                <p><strong>CJ Wei Cheng Trading, Main Road, Balik Pulau, Penang</strong></p>
+                <p><em>Internship</em></p>
+                <p>Responsibilities:</p>
+                <ul>
+                    <li>Troubleshooting hardware and software installations</li>
+                    <li>Assisting staff with related tasks</li>
+                    <li>Assisting customers for better service</li>
+                </ul>
+            </div>
+        </div>
+        <div class="collapsible-section">
+            <button type="button" class="collapsible">Oct 2018 - Dis 2018</button>
+            <div class="content">
+                <p><strong>CZ Computer Center, 21, Jalan Balik Pulau, Penang</strong></p>
+                <p><em>Cashier</em></p>
+                <p>Responsibilities:</p>
+                <ul>
+                    <li>Assisting customers in the printing and cyber cafe sections</li>
+                    <li>Handling cash transactions for printing, computer rentals, and accessories sales</li>
+                    <li>Welcoming customers upon entry</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="Skills" class="w3-container w3-row w3-card w3-margin w3-padding-32">
+        <h3 style="font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold; color: #333;">Skills</h3>
+        <div class="w3-container w3-half">
+            <h4>Design Skills</h4>
+            <p>Adobe Photoshop</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge" style="width:70%; background-color: #b08bf0">70%
+                </div>
+            </div>
+            <p>media</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge" style="width:60%; background-color: #b08bf0">60%
+                </div>
+            </div>
+            <p>Illustrator</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge" style="width:55%; background-color: #b08bf0">55%
+                </div>
+            </div>
+        </div>
+        <div class="w3-container w3-half">
+            <hr class="w3-hide-large">
+            <h4>Code Skills</h4>
+            <p>HTML</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge" style="width:80%; background-color: #b08bf0">
+                    <div class="w3-center w3-text-black">80%</div>
+                </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge" style="width:70%; background-color: #b08bf0">
+                    <div class="w3-center w3-text-black">70%</div>
+                </div>
+            </div>
+            <p>CSS</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge" style="width:50%; background-color: #b08bf0">50%
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project -->
+    <div id="Project" class="w3-container w3-card w3-margin w3-padding-32">
+        <h3 style="font-family: 'Lato', sans-serif; font-size: 24px; font-weight: bold; color: #333;">Project</h3>
+        <div class="w3-row">
+            <div class="w3-half w3-container project-item">
+                <h4>FYP: Upgrading network at Sk Datuk Onn</h4>
+                <p>Enhanced school internet infrastructure, installed cables, refurbished computers, and implemented
+                    monitoring.</p>
+                <div class="container">
+                    <img src="img/fyp_psp.jpg" alt="Project 1" class="image">
+                    <div class="overlay">
+                        <div class="text">JUN 2018</div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-half w3-container project-item">
+                <h4>FYP: Online logbook: Industrial Training Journey (web-based)</h4>
+                <p>Developed an online logbook for industrial training for SOC used during praticum, benefiting
+                    students, supervisors, and committee members.</p>
+                <div class="container">
+                    <img src="img/fyp_uum.jpg" alt="Project 2" class="image">
+                    <div class="overlay">
+                        <div class="text">JULY 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="w3-container w3-center">
+        <div class="w3-padding">
+            <h4>Find me on social media</h4>
+            <p>Email: <a href="mailto:adiela1045@gmail.com">adiela1045@gmail.com</a></p>
+            <div class="footer-social-icons">
+                <a href="https://www.facebook.com/nurul.adilah.184?mibextid=ZbWKwL" class="w3-hover-opacity"><i
+                        class="fa fa-facebook-official"></i></a>
+                <a href="https://www.instagram.com/adiela_nabar?igsh=MW51NzczZjkyOHpkbg==" class="w3-hover-opacity"><i
+                        class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nurul-adilah-abdul-rahman-394395183" class="w3-hover-opacity"><i
+                        class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        // Adjust scroll position to accommodate navbar height and ensure heading visibility
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                var offsetTop = section.offsetTop - document.querySelector('.w3-bar').offsetHeight;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+        // Display full section content when navbar link is clicked
+        function showSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.style.display = "block";
+                var sectionHeading = section.querySelector('h3');
+                sectionHeading.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                scrollToSection(sectionId);
+            }
+            myFunction(); // Close the mobile menu if open
+        }
+        // Add click event listeners to navbar items
+        var navbarItems = document.querySelectorAll('.w3-bar-item');
+        navbarItems.forEach(function(item) {
+            item.addEventListener('click', function(event) {
+                var sectionId = event.target.getAttribute('href').substring(1); // Remove the '#'
+                showSection(sectionId);
+            });
+        });
+        // Function to toggle the collapsible content
+        function toggleCollapsible() {
+            var content = this.nextElementSibling;
+            content.classList.toggle("show");
+        }
+        // Collapsibles
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
